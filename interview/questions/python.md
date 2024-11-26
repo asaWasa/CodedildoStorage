@@ -276,6 +276,7 @@ Python стремится оставить не менее трети ячеек
 
 1. ###### [Chaining - метод цепочек](https://youtu.be/hctCPN6Y-Yo?si=D65gotMwXdVoS5BA&t=200): 
     Каждый слот хеш-таблицы содержит список (цепочку) элементов, которые имеют одинаковый хеш-код. При коллизии элементы добавляются в этот список.
+    
     ![collision_resolution_chaining_method](images/collision_resolution_chaining_method.webp)
 
 2. ###### [Open Addressing - открытая адресация](https://youtu.be/hctCPN6Y-Yo?si=I-mWhiT8IDb4a6Sq&t=59):
@@ -285,6 +286,7 @@ Python стремится оставить не менее трети ячеек
 
 3. ###### Линейное пробирование: 
     При коллизии происходит поиск следующего доступного слота в таблице.
+
     ![collision_resolution_linear_probing_method](images/collision_resolution_linear_probing_method.webp)
 
 4. ###### Квадратичное пробирование: 
